@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão formulário</title>
+    <link rel="stylesheet" href="siteProva1/estilos/layout.css">
+    <link rel="stylesheet" href="siteProva1/estilos/formulario.css">
+    <link rel="icon" href="siteProva1/imagens1/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>Acesse os exercícios</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página principal</a></li>
+                <li><a href="paginas/exercicio1.html">Exercício 1</a></li>
+                <li><a href="paginas/exercicio2.html">Exercício 2</a></li>
+                <li><a href="paginas/exercicio3.html">Exercício 3</a></li>
+                <li><a href="paginas/exercicios4_14.html">Exercício 4 à 14</a></li>
+                <li><a href="paginas/tabela.html">Exercício 15</a></li>
+                <li><a href="paginas/exercicio16.html">Exercício 16</a></li>
+                <li><a href="index2.html">Exercício 17</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="siteProva1/imagens1/logo1.jpg" alt="Logotipo AMB" class="logo">
+        <h1>AMB</h1>
+        <p>Acervo Musical Brasileiro</p>
+    </figure>
+    <section class="main-container">
+        <main>
+            <section class="content-section">
+                <h2>O Tesouro da Música Popular Brasileira</h2>
+                <p>A Música Popular Brasileira, conhecida como MPB, é um dos gêneros mais ricos e diversificados do mundo. Nascida da fusão de ritmos como o samba, a bossa nova e influências do jazz e do rock, a MPB é a trilha sonora da história cultural e social do Brasil.</p>
+                <p>Neste acervo, você encontrará informações sobre os artistas que definiram gerações, os álbuns que se tornaram clássicos e os movimentos que transformaram a nossa música.</p>
+            </section>
+            <section class="content-section">
+                <h2>Artistas em Destaque</h2>
+                <p>Explore a biografia e discografia de ícones como Tom Jobim, Elis Regina, Chico Buarque, Caetano Veloso, Gilberto Gil e muitos outros que moldaram a identidade da música brasileira.</p>
+            </section>
+            <section class="contact-form">
+                <h2>CONTATO</h2>
+                <p style="text-align: left; margin-bottom: 20px;">Se desejar entrar em contato, preencha o formulário</p>
+                <form action="#" method="post">
+                    <label for="nome">NOME (OBRIGATÓRIO)</label>
+                    <input type="text" id="nome" name="nome" placeholder="Cliente" required>
+                    <label for="email">EMAIL (OBRIGATÓRIO)</label>
+                    <input type="email" id="email" name="email" placeholder="Cliente@gmail.com" required>
+
+                    <label for="tipo">TIPO (OBRIGATÓRIO)</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="cotacao">Cotação</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="reclamacao">Reclamação</option>
+                    </select>
+
+                    <label for="comentarios">COMENTÁRIOS (OBRIGATÓRIO)</label>
+                    <textarea id="comentarios" name="comentarios" placeholder="Gostaria de uma cotação do produto A" required></textarea>
+
+                    <button type="submit">ENVIAR &raquo;</button>
+                </form>
+            </section>
+        </main>
+        <aside>
+            <h3>Álbuns Clássicos</h3>
+            <ul>
+                <li>Clube da Esquina (1972)</li>
+                <li>Elis & Tom (1974)</li>
+                <li>Acabou Chorare (1972)</li>
+                <li>Chega de Saudade (1959)</li>
+                <li>Tropicália ou Panis et Circencis (1968)</li>
+            </ul>
+            <hr style="margin: 20px 0;">
+            <h3>Eventos</h3>
+            <p>Fique por dentro dos próximos shows e festivais de MPB pelo Brasil.</p>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2025 - AMB - Acervo Musical Brasileiro. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

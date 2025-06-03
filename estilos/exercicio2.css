@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+h4 {
+    background-color: #add8e6; /* azul claro */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000080; /* azul escuro */
+}
+
+form {
+    max-width: 600px;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="url"],
+form input[type="date"],
+form input[type="password"],
+form select {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #ccc;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
