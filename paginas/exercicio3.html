@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão formulário</title>
+    <link rel="stylesheet" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/exercicio3.css">
+</head>
+<body>
+    <header>
+        <h2>Acesse os exercícios</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página principal</a></li>
+                <li><a href="exercicio1.html">Exercício 1</a></li>
+                <li><a href="exercicio2.html">Exercício 2</a></li>
+                <li><a href="exercicio3.html">Exercício 3</a></li>
+                <li><a href="exercicios4_14.html">Exercício 4 à 14</a></li>
+                <li><a href="tabela.html">Exercício 15</a></li>
+                <li><a href="exercicio16.html">Exercício 16</a></li>
+                <li><a href="../index2.html">Exercício 17</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+                
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep">
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Telefones</legend>
+            <label for="telefone">Residencial:</label>
+            <input type="tel" id="telefone" name="telefone">
+            
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular">
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
