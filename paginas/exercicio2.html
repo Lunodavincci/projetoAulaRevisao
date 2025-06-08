@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão formulário</title>
+    <link rel="stylesheet" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/exercicio2.css">
+</head>
+<body>
+    <header>
+        <h2>Acesse os exercícios</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Página principal</a></li>
+                <li><a href="exercicio1.html">Exercício 1</a></li>
+                <li><a href="exercicio2.html">Exercício 2</a></li>
+                <li><a href="exercicio3.html">Exercício 3</a></li>
+                <li><a href="exercicios4_14.html">Exercício 4 à 14</a></li>
+                <li><a href="tabela.html">Exercício 15</a></li>
+                <li><a href="exercicio16.html">Exercício 16</a></li>
+                <li><a href="../index2.html">Exercício 17</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>Não é associado? Faça seu cadastro</h4>
+
+    <form action="exercicio2.html" method="post">
+
+        <label>Nome Completo:</label>
+        <input type="text" name="nome"><br>
+        <label>CPF:</label>
+        <input type="text" name="cpf"><br>
+        <label>E-mail:</label>
+        <input type="email" name="email"><br>
+        <label>Website:</label>
+        <input type="url" name="website"><br>
+        <label>Endereço:</label>
+        <input type="text" name="endereco"><br>
+        <label>Bairro:</label>
+        <input type="text" name="bairro"><br>
+        <label>Cidade:</label>
+        <input type="text" name="cidade"><br>
+        <label>CEP:</label>
+        <input type="text" name="cep"><br>
+        <label>UF:</label>
+        <select name="uf">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select><br>
+        <label>Telefone:</label>
+        <input type="text" name="telefone"><br>
+        <label>Fax:</label>
+        <input type="text" name="fax"><br>
+        <label>Data Nascimento:</label>
+        <input type="date" name="nascimento"><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="M"> M
+        <input type="radio" name="sexo" value="F"> F<br>
+        <label>Celular:</label>
+        <input type="text" name="celular"><br>
+        <label>Est. Civil:</label>
+        <select name="estado_civil">
+            <option>Solteiro</option>
+            <option>Casado</option>
+            <option>Divorciado</option>
+            <option>Viúvo</option>
+        </select><br>
+        <label>Login:</label>
+        <input type="text" name="login"><br>
+        <label>Senha:</label>
+        <input type="password" name="senha"><br>
+
+        <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+
+        <input type="checkbox" name="assunto" value="tecnologia"> Tecnologia
+        <input type="checkbox" name="assunto" value="esportes"> Esportes
+        <input type="checkbox" name="assunto" value="automoveis"> Automóveis
+        <input type="checkbox" name="assunto" value="culinaria"> Culinária
+        <input type="checkbox" name="assunto" value="politica"> Política
+        <input type="checkbox" name="assunto" value="policial"> Policial
+        <input type="checkbox" name="assunto" value="tempo"> Tempo
+        <input type="checkbox" name="assunto" value="cultura"> Cultura
+        <input type="checkbox" name="assunto" value="economia"> Economia
+        <input type="checkbox" name="assunto" value="jogos"> Jogos
+        <input type="checkbox" name="assunto" value="educacao"> Educação
+        <input type="checkbox" name="assunto" value="viagem"> Viagem
+        <input type="checkbox" name="assunto" value="empregos"> Empregos
+        <input type="checkbox" name="assunto" value="moda"> Moda e Estilo<br><br>
+        <input type="checkbox" name="aceito"> Li as regras de cadastro e autorizo a criação do usuário<br><br>
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Retornar">
+
+    </form>
+</body>
+</html>

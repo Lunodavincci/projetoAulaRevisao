@@ -1,0 +1,108 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+ }
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f4f4f4;
+     color: #333;
+     line-height: 1.6;
+ }
+
+ header {
+     background-color: #4CAF50;
+     color: white;
+     padding: 20px;
+     border-radius: 8px;
+     text-align: center;
+     margin-bottom: 20px; 
+ }
+
+ header h2 {
+     font-size: 2em;
+     margin-bottom: 20px;
+ }
+
+ header nav ul {
+     list-style-type: none;
+     padding: 0;
+     text-align: center;
+ }
+
+ header nav li {
+     display: inline;
+ }
+
+ header nav a {
+     display: inline-block;
+     padding: 10px 15px;
+     margin: 5px;
+     text-decoration: none;
+     color: #4CAF50;
+     background-color: white;
+     border-radius: 5px;
+     transition: background-color 0.3s, color 0.3s;
+     min-width: 100px;
+     text-align: center;
+ }
+
+ header nav a:hover {
+     background-color: #45a049;
+     color: white;
+ }
+
+ .main-container {
+     padding: 0 20px; 
+     overflow: auto;  
+     margin-bottom: 20px;
+ }
+
+ main {
+     background-color: #e0e0e0;
+     padding: 20px;
+     width: 70%; 
+     float: left; 
+ }
+
+ aside {
+     background-color: #e0e0e0;
+     padding: 20px;
+     width: 28%; 
+     float: right; 
+ }
+
+footer {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    clear: both; 
+}
+
+ .contact-form {
+     max-width: 500px;
+     margin: 20px auto 0 auto;
+     background-color: #f9f9f9;
+     padding: 25px;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+
+ .contact-form h2 { text-align: center; color: #333; margin-bottom: 10px; }
+ .contact-form p { text-align: center; color: #666; margin-bottom: 20px; }
+ .contact-form label { display: block; margin-bottom: 8px; color: #555; font-weight: bold; }
+ .contact-form input[type="text"],
+ .contact-form input[type="email"],
+ .contact-form select,
+ .contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+ .contact-form textarea { height: 120px; resize: vertical; }
+ .contact-form button { background-color: #808080; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+ .contact-form button:hover { background-color: #696969; }
